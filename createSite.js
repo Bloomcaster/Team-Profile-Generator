@@ -90,6 +90,9 @@ module.exports = roster => {
     <h1> My Roster</h1>
     </header>
 
+    <p> style="background-image: url('img_golden bubbles background image.jpg);>
+    </p>
+
     <main> ${createRoster(roster)} </main>
 
     </body>
