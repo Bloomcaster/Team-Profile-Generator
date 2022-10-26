@@ -83,6 +83,11 @@ module.exports = roster => {
   <script src="https://kit.fontawesome.com/1cfdfe6150.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="../dis/style.css"/>
 
+  <style>
+  p{
+    background-image: url('img_golden bubbles background image.jpg);
+  }
+  </style>
   <title>Team Profile Generator</title>
   </head>
 <body>
@@ -90,8 +95,7 @@ module.exports = roster => {
     <h1> My Roster</h1>
     </header>
 
-    <p> style="background-image: url('img_golden bubbles background image.jpg);>
-    </p>
+    
 
     <main> ${createRoster(roster)} </main>
 
