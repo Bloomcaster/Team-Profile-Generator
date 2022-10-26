@@ -1,5 +1,5 @@
 
-const generateRoster = (roster) => {
+const createRoster = (roster) => {
     console.log(roster);
 
     const html = [];
