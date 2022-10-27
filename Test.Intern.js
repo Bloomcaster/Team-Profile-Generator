@@ -1,5 +1,5 @@
 
-const Intern = require ('../lib/Intern');
+const Intern = require('../lib/Intern');
 const intern = new Intern('tahlia', '007', 'tbolden13@gmail.com', 'UW');
 
 test('check value for Engineer object', () => {
