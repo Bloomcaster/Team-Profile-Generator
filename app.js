@@ -192,7 +192,7 @@ const promptIntern = () => {
     })
 };
 
-const createRoster = () => {
+const generateRoster = () => {
     console.log(`
     Finished Roster
     `);
