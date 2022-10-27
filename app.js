@@ -1,5 +1,5 @@
 
-const inquier = requier('inquier');
+const inquirer = requier('inquirer');
 const Manager = requier('./lib/Manager');
 const Engineer = requier('./lib/Engineer');
 const Intern = requier('./lib/Intern');
