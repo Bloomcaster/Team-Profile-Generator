@@ -1,9 +1,9 @@
 
 const inquirer = require('inquirer');
-const Manager = require('./lib/Manager');
-const Engineer = require('./lib/Engineer');
-const Intern = require('./lib/Intern');
-const generateSite = require('./src/create-site.js');
+const Manager = require('./ManagerInput');
+const Engineer = require('./EngineerInput');
+const Intern = require('./InternInput');
+const generateSite = require('./createSite.js');
 const path = require("path");
 const fs = require("fs");
 const OUTPUT_DIR = path.resolve(__dirname, "output");

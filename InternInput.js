@@ -1,3 +1,4 @@
+const Intern = require("./InternInput");
 class Intern extends Intern {
     constructor(name, id, email, school) {
 

@@ -1,4 +1,4 @@
-
+const Employee = require("./Employee");
 class Manager extends Employee {
     constructor (name, id, email, officeNumber) {
         //parent constructor is called here using super, nice shortcut for code writing!
