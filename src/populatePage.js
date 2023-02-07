@@ -1,6 +1,6 @@
-// template to help make html code that generates team
+
 function populatePage(data) {
-    // console.log('DATA', data) to check if things are working
+    
     let htmlList = []
     for(let i = 0; i < data.length; i++){
         console.log(data[i])
