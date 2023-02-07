@@ -37,7 +37,7 @@ function employeeQuestions() {
 
         ])
         .then(function (answers) {
-            if (responses.role === "Manager") {
+            if (answers.role === "Manager") {
                 managerQuestions(answers);
             } else if (answers.role === "Engineer") {
                 engineerQuestions(answers);
